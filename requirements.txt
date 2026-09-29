@@ -1,0 +1,9 @@
+# Dependencias de ejecución (equivalentes a [project.dependencies] de pyproject.toml)
+numpy>=1.24
+rasterio>=1.3
+pyproj>=3.5
+shapely>=2.0
+geopandas>=0.14
+pyogrio>=0.7
+requests>=2.31
+tomli>=2.0; python_version < "3.11"

@@ -1,0 +1,12 @@
+# Mínimo indispensable: solo el punto de salida.
+# El área inicial es un círculo y la delineación la amplía si la cuenca no cabe.
+nombre = "Cuenca desde la salida"
+epsg = 32718
+
+[salida]
+x = 459329.724
+y = 8769071.156
+
+[parametros]
+# si conoces el tamaño aproximado, se ajusta mejor el círculo inicial:
+# (se indica con --area-estimada en la terminal)

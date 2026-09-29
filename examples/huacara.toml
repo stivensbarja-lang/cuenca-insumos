@@ -1,0 +1,21 @@
+# Caso de estudio: quebrada Huacará (San Ramón, Chanchamayo, Junín, Perú)
+# Uso:  cuenca-insumos analizar --config examples/huacara.toml
+#       cuenca-insumos descargar --config examples/huacara.toml --proyecto Proyecto_Huacara
+
+nombre = "Quebrada Huacara"
+zona = 18
+hemisferio = "S"          # EPSG:32718 = WGS 84 / UTM zona 18S
+
+[salida]                  # confluencia con el río Chanchamayo (la usada en r.water.outlet)
+x = 459329.724
+y = 8769071.156
+
+[cabecera]                # inicio del cauce principal (cota ≈ 1 926 m)
+x = 458566.19
+y = 8764100.15
+
+[parametros]
+pais = "PER"
+# incluir = ["osm", "cobertura"]     # insumos opcionales
+# excluir = ["imagen"]
+# formato_vector = "shp"             # para ArcMap 10.x

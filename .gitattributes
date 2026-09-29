@@ -1,0 +1,7 @@
+# Saltos de línea normalizados en el repositorio; el .bat siempre con CRLF,
+# también en el ZIP que descarga GitHub (cmd.exe falla con saltos LF)
+* text=auto
+*.bat text eol=crlf
+*.py text eol=lf
+*.png binary
+*.tif binary
